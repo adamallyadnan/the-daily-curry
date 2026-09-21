@@ -6,6 +6,8 @@
 <meta name="theme-color" content="#fff8ee">
 <title>The Daily Curry — Homemade Sri Lankan Food</title>
 <meta name="description" content="The Daily Curry — homemade, fresh Sri Lankan food made with love.">
+<link rel="manifest" href="manifest.webmanifest">
+<link rel="apple-touch-icon" href="assets/app-icon-192.png">
 <style>
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap");
 :root{
@@ -172,5 +174,6 @@ header .brand-sub{color:#59631f!important}
 </footer>
 <div class="bottom"><span>© 2026 The Daily Curry. All rights reserved.</span><span>Privacy &nbsp; | &nbsp; Terms &nbsp; | &nbsp; Contact</span></div>
 </div>
+<script>if ("serviceWorker" in navigator) { window.addEventListener("load", () => navigator.serviceWorker.register("./sw.js")); }</script>
 </body>
 </html>
